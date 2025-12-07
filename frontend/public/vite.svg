@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+	<defs>
+		<linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+			<stop offset="0%" stop-color="#0f172a"/>
+			<stop offset="100%" stop-color="#0ea5a4"/>
+		</linearGradient>
+	</defs>
+	<rect width="100" height="100" rx="18" fill="url(#g)" />
+
+	<!-- Briefcase body -->
+	<rect x="20" y="38" width="60" height="30" rx="4" fill="#ffffff" opacity="0.95" />
+	<!-- Briefcase handle -->
+	<rect x="36" y="30" width="28" height="8" rx="3" fill="#ffffff" opacity="0.95" />
+
+	<!-- Inner letters HE -->
+	<g transform="translate(0,0)" fill="#0f172a">
+		<text x="50" y="60" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">HE</text>
+	</g>
+
+	<!-- subtle shadow -->
+	<ellipse cx="50" cy="80" rx="28" ry="6" fill="#000" opacity="0.06" />
+</svg>
